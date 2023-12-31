@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="nopCommerce Regression Suite">
+<parameter name= "browser" value = "chrome"> </parameter>
+  <test name="Regression Test" preserve-order = "false">
+    <classes>
+       <class name="tests.UserRegisterationTest"/>
+       <class name="tests.AddProductReviewTest"/>
+       <class name="tests.ChangeCurrencyTest"/>
+       <class name="tests.ContactUsTest"/>
+       <class name="tests.EmailFriendTest"/>
+       <class name="tests.MyAccountTest"/>
+       <class name="tests.SearchProductTest"/>
+       <class name="tests.SearchProductUsingAutoSuggest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
